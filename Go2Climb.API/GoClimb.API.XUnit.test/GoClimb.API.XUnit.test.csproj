@@ -5,6 +5,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Steps" />
+      <ProjectReference Include="..\Go2Climb.API\Go2Climb.API.csproj" />
     </ItemGroup>
 
 </Project>
