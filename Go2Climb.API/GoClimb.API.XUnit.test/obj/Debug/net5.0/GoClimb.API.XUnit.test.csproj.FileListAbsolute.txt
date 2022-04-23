@@ -434,3 +434,6 @@ C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplicatio
 C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplication\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\GoClimb.API.XUnit.test.pdb
 C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplication\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\GoClimb.API.XUnit.test.genruntimeconfig.cache
 C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplication\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\ref\GoClimb.API.XUnit.test.dll
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\GoClimb.API.XUnit.test.dll
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\ref\GoClimb.API.XUnit.test.dll
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test\obj\Debug\net5.0\GoClimb.API.XUnit.test.pdb

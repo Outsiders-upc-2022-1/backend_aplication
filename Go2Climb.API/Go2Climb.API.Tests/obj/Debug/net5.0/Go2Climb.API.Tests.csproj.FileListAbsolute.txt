@@ -417,3 +417,6 @@ C:\Users\SALOME\Documents\GitHub\Back-end\Go2Climb.API\Go2Climb.API.Tests\obj\De
 C:\Users\SALOME\Documents\GitHub\Back-end\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\ref\Go2Climb.API.Tests.dll
 C:\Users\SALOME\Documents\GitHub\Back-end\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\Go2Climb.API.Tests.pdb
 C:\Users\SALOME\Documents\GitHub\Back-end\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\Go2Climb.API.Tests.genruntimeconfig.cache
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\Go2Climb.API.Tests.dll
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\ref\Go2Climb.API.Tests.dll
+C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\Go2Climb.API.Tests\obj\Debug\net5.0\Go2Climb.API.Tests.pdb
