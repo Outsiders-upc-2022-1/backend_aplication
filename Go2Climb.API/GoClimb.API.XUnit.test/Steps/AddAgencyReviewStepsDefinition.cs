@@ -15,12 +15,12 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using Xunit;
 
-namespace GoClimb.API.XUnit.test.Steps;
-
-[Binding]
-public class AddAgencyReviewStepsDefinition
+namespace GoClimb.API.XUnit.test.Steps
 {
-    private readonly WebApplicationFactory<Startup> _factory;
+    [Binding]
+    public class AddAgencyReviewStepsDefinition
+    {
+        private readonly WebApplicationFactory<Startup> _factory;
         private HttpClient Client { get; set; }
         private Uri BaseUri { get; set; }
         private Task<HttpResponseMessage> Response { get; set; }
@@ -72,11 +72,12 @@ public class AddAgencyReviewStepsDefinition
             Response = Client.PostAsync(BaseUri, content);
         }
 
-        [Then(@"A Response with status (.*) is received")]
+        [Then(@"A Response With status (.*) is received")]
         public void ThenAResponseWithStatusIsReceived(int expectedStatus)
         {
             var expectedStatusCode = ((HttpStatusCode) expectedStatus).ToString();
             var actualStatusCode = Response.Result.StatusCode.ToString();
             Assert.Equal(actualStatusCode, actualStatusCode);
         }
+    }
 }

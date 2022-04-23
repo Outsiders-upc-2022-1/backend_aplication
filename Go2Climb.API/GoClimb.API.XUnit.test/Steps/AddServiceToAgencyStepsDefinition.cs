@@ -14,8 +14,8 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using Xunit;
 
-namespace GoClimb.API.XUnit.test.Steps;
-
+namespace GoClimb.API.XUnit.test.Steps
+{
     [Binding]
     public class AddServiceToAgencyStepsDefinition
     {
@@ -65,3 +65,4 @@ namespace GoClimb.API.XUnit.test.Steps;
             Assert.Equal(actualStatusCode, actualStatusCode);
         }
     }
+}

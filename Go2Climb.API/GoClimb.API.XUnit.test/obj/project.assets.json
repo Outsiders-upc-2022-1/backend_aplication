@@ -2633,7 +2633,6 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
           "Microsoft.EntityFrameworkCore.Relational.Design": "2.0.0-preview1-final",
           "MySql.EntityFrameworkCore": "5.0.8",
-          "SpecFlow.xUnit": "3.9.69",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Swashbuckle.AspNetCore.Annotations": "6.2.3",
           "System.IdentityModel.Tokens.Jwt": "6.14.1"
@@ -9034,16 +9033,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: SpecFlow.xUnit from 3.9.69 to 3.9.22. Reference the package directly from the project to select a different version. \r\n GoClimb.API.XUnit.test -> Go2Climb.API -> SpecFlow.xUnit (>= 3.9.69) \r\n GoClimb.API.XUnit.test -> SpecFlow.xUnit (>= 3.9.22)",
-      "libraryId": "SpecFlow.xUnit",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

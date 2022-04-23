@@ -1,12 +1,134 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=45a40d94_002D18e0_002D47a1_002Dbeca_002D5776e9cc3bfa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddServiceToAgencyFeature" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0942896a_002D3faa_002D40a4_002D877f_002Ddb895df81959/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::AD56B025-DF1D-47ED-B2C4-AC5356A60FDF::net5.0::Go2Climb.API.Tests.Features.AddServiceToAgencyFeature&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::AD56B025-DF1D-47ED-B2C4-AC5356A60FDF::net5.0::Go2Climb.API.Tests.Features.AddActivityToServiceFeature&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::AD56B025-DF1D-47ED-B2C4-AC5356A60FDF::net5.0::Go2Climb.API.Tests.Features.AddServiceReviewToServiceFeature&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
-    &lt;Project Location="C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplication\Go2Climb.API\Go2Climb.API.XUnit" Presentation="&amp;lt;Go2Climb.API.XUnit&amp;gt;" /&gt;&#xD;
-    &lt;Project Location="C:\Users\Kevin\Documents\GitHub\Evolucion de software\Go2Climb\backend_aplication\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0dabd134_002Da9a1_002D43d5_002Db63b_002Dcee5202e5789/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e3b1930_002D3514_002D4328_002D8a85_002D4d6673a2fdbc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddServiceToAgencyFeature.AddNewServiceToMyAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=46e358d2_002D5d53_002D44ae_002D9d04_002Db856af0e28aa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #13" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddServiceToAgencyFeature.AddNewServiceToMyAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=48bb4482_002D5636_002D42a6_002Dbd0a_002D0afe19ced846/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddServiceToAgencyFeature.AddNewServiceToMyAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4c0ef789_002D668a_002D4133_002Daaef_002Dbb6c28c54a90/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\Go2Climb.API.Tests" Presentation="&amp;lt;Go2Climb.API.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;Go2Climb.API.Tests&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5654c070_002D57bc_002D48b4_002Dabcb_002D45e66bfda251/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddServiceToAgencyFeature.AddNewServiceToMyAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=60286a49_002D6d36_002D46d5_002D966f_002D7245f14c42fb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=70faa12f_002D4b71_002D4d2d_002Db7aa_002D48c0356a0ebe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddServiceToAgencyFeature.AddNewServiceToMyAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b43a222e_002D2513_002D47de_002D86cb_002Db1d59ff59758/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c21abd95_002D04d3_002D4c81_002Da423_002D2bbed3a6ce8c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #11" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.UnitTest1&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d3179cd9_002Dc6a8_002D41fd_002Db98f_002D9f1e713aeb25/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d92227a4_002Db57f_002D445e_002D829e_002D28c98fba3b79/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e020cc92_002Dc768_002D4e9c_002Dbe80_002D115c7da04533/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f933294b_002Df291_002D46e3_002D9823_002De4365e0c98d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session #15" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::198F45FC-851D-4066-8811-9A9532098935::net5.0::GoClimb.API.XUnit.test.Features.AddAgencyReviewFeature.AddNewReviewToTheAgency&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Project Location="C:\Users\William\Documents\Lightshot\CICLO 6\Evolución de Software\TB2\Backend\Go2Climb.API\GoClimb.API.XUnit.test" Presentation="&amp;lt;GoClimb.API.XUnit.test&amp;gt;" /&gt;&#xD;
+    &lt;Namespace&gt;GoClimb.API.XUnit.test.Features&lt;/Namespace&gt;&#xD;
+  &lt;/And&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

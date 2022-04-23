@@ -1,11 +1,12 @@
 using Xunit;
 
-namespace GoClimb.API.XUnit.test;
-
-public class UnitTest1
+namespace GoClimb.API.XUnit.test
 {
-    [Fact]
-    public void Test1()
+    public class UnitTest1
     {
+        [Fact]
+        public void Test1()
+        {
+        }
     }
 }

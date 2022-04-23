@@ -16,4 +16,4 @@
 		When A AgencyReview Request is Sent
 		  | AgencyId | CustomerId | Date       | Comment                  | ProfessionalismScore | SecurityScore | QualityScore | CostScore |
 		  | 1        | 1          | 25-04-2022 | Tha experience was great | 5                    | 5             | 5            | 4         |
-		Then A Response with status 200 is received
+		Then A Response With status 200 is received

@@ -185,7 +185,7 @@ namespace GoClimb.API.XUnit.test.Features
   testRunner.When("A AgencyReview Request is Sent", ((string)(null)), table3, "When ");
 #line hidden
 #line 19
-  testRunner.Then("A Response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("A Response With status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

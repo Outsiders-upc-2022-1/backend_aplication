@@ -67,10 +67,6 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.16.1, )"
-            },
-            "SpecFlow.xUnit": {
-              "target": "Package",
-              "version": "[3.9.69, )"
             }
           },
           "imports": [
@@ -167,10 +163,6 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.8, )"
-            },
-            "SpecFlow.xUnit": {
-              "target": "Package",
-              "version": "[3.9.69, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

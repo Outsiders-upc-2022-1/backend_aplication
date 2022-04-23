@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "I4AFtysrhdcpPdo4TJbUXXhDiZUMNgtwYu+y+uNvT92TtVSCZIFp3Hv3L2fh9XIPy5kF/WIpto+X2m495N8Msg==",
-  "success": false,
+  "dgSpecHash": "ISMI/w6kyAW3r0bNMCftoOsTrMNPVulAC241qUE3XBbNWFSiyQ2IGqn1haLr9+0PvYVhssHPNjpfY1dGXGlBew==",
+  "success": true,
   "projectFilePath": "C:\\Users\\William\\Documents\\Lightshot\\CICLO 6\\Evolución de Software\\TB2\\Backend\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\William\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
@@ -175,15 +175,5 @@
     "C:\\Users\\William\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
     "C:\\Users\\William\\.nuget\\packages\\xunit.skippablefact\\1.3.12\\xunit.skippablefact.1.3.12.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: SpecFlow.xUnit from 3.9.69 to 3.9.22. Reference the package directly from the project to select a different version. \r\n Go2Climb.API.Tests -> Go2Climb.API -> SpecFlow.xUnit (>= 3.9.69) \r\n Go2Climb.API.Tests -> SpecFlow.xUnit (>= 3.9.22)",
-      "libraryId": "SpecFlow.xUnit",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -80,10 +80,6 @@
               "target": "Package",
               "version": "[5.0.8, )"
             },
-            "SpecFlow.xUnit": {
-              "target": "Package",
-              "version": "[3.9.69, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
