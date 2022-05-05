@@ -1,4 +1,4 @@
-﻿namespace Go2Climb.API.Resources
+﻿namespace Go2Climb.API.Agencies.Resources
 {
     public class AgencyResource
     {

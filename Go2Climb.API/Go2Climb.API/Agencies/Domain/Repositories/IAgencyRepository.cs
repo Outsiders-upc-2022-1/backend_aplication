@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Go2Climb.API.Agencies.Domain.Models;
 using Go2Climb.API.Domain.Models;
 
 namespace Go2Climb.API.Domain.Repositories

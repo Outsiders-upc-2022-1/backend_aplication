@@ -1,5 +1,6 @@
 using Go2Climb.API.Domain.Services.Communication;
 using AutoMapper;
+using Go2Climb.API.Agencies.Domain.Models;
 using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Domain.Services.Communication;

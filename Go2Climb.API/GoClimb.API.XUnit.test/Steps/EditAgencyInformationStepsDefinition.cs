@@ -18,26 +18,28 @@ using Xunit;
 namespace GoClimb.API.XUnit.test.Steps
 {
     [Binding]
-    public class AddServiceToAgencyStepsDefinition
+    public class EditAgencyInformationStepsDefinition
     {
+
         private readonly WebApplicationFactory<Startup> _factory;
+
         private HttpClient Client { get; set; }
         private Uri BaseUri { get; set; }
         private Task<HttpResponseMessage> Response { get; set; }
         private AgencyResource Agency { get; set; }
-
-        public AddServiceToAgencyStepsDefinition(WebApplicationFactory<Startup> factory)
+        
+        public EditAgencyInformationStepsDefinition(WebApplicationFactory<Startup> factory, HttpClient client, Uri baseUri, Task<HttpResponseMessage> response, AgencyResource agency)
         {
             _factory = factory;
         }
-        
-        [Given(@"the Endpoint https://localhost:(.*)/api/v(.*)/services is available")]
-        public void GivenTheEndpointHttpsLocalhostApiVServicesIsAvailable(int port, int version)
+
+        [Given(@"the Endpoint https://localhost:(.*)/api/v(.*)/agencies/(.*) is available")]
+        public void GivenTheEndpointHttpsLocalhostApiVAgenciesIsAvailable(int port, int version, int id)
         {
-            BaseUri = new Uri($"https://localhost:{port}/api/v{version}/services");
+            BaseUri = new Uri($"https://localhost:{port}/api/v{version}/agencies/{id}");
             Client = _factory.CreateClient(new WebApplicationFactoryClientOptions {BaseAddress = BaseUri});
         }
-
+        
         [Given(@"A Agency is already stored")]
         public async void GivenAAgencyIsAlreadyStored(Table existingAgencyResource)
         {
@@ -45,25 +47,37 @@ namespace GoClimb.API.XUnit.test.Steps
             var resource = existingAgencyResource.CreateSet<SaveAgencyResource>().First();
             var content = new StringContent(resource.ToJson(), Encoding.UTF8, MediaTypeNames.Application.Json);
             var agencyResponse = Client.PostAsync(agencyUri, content);
-            var interestResponseData = await agencyResponse.Result.Content.ReadAsStringAsync();
-            var existingInterest = JsonConvert.DeserializeObject<AgencyResource>(interestResponseData);
-            Agency = existingInterest;
+            var agencyResponseData = await agencyResponse.Result.Content.ReadAsStringAsync();
+            var existingAgency = JsonConvert.DeserializeObject<AgencyResource>(agencyResponseData);
+            Agency = existingAgency;
+
         }
 
-        [When(@"A Service Request is Sent")]
-        public void WhenAServiceRequestIsSent(Table saveServiceResource)
+        [When(@"A Put Request is sent")]
+        public void WhenAPutRequestIsSent(Table saveAgencyResource)
         {
-            var resource = saveServiceResource.CreateSet<SaveServiceResource>().First();
+            var resource = saveAgencyResource.CreateSet<SaveAgencyResource>().First();
             var content = new StringContent(resource.ToJson(), Encoding.UTF8, MediaTypeNames.Application.Json);
-            Response = Client.PostAsync(BaseUri, content);
+            Response = Client.PutAsync(BaseUri, content);
         }
 
-        [Then(@"A Response with status (.*) is received")]
+        [Then(@"A Response with Status (.*) is received")]
         public void ThenAResponseWithStatusIsReceived(int expectedStatus)
         {
             var expectedStatusCode = ((HttpStatusCode) expectedStatus).ToString();
             var actualStatusCode = Response.Result.StatusCode.ToString();
             Assert.Equal(actualStatusCode, actualStatusCode);
         }
+
+       /* [Then(@"A Agency information is up-to-date")]
+        public async void ThenAAgencyInformationIsUpToDate(Table expectedAgencyResource)
+        {
+            var expectedResource = expectedAgencyResource.CreateSet<AgencyResource>().First();
+            var responseData = await Response.Result.Content.ReadAsStringAsync();
+            var resource = JsonConvert.DeserializeObject<AgencyResource>(responseData);
+            var jsonExpectedResource = expectedAgencyResource.ToJson();
+            var jsonActualResource = resource.ToJson();
+            Assert.Equal(jsonExpectedResource, jsonActualResource);
+        }*/
     }
 }

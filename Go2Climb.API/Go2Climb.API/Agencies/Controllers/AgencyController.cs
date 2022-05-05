@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using Go2Climb.API.Domain.Models;
+using Go2Climb.API.Agencies.Domain.Models;
+using Go2Climb.API.Agencies.Resources;
 using Go2Climb.API.Domain.Services;
-using Go2Climb.API.Extensions;
 using Go2Climb.API.Resources;
 using Go2Climb.API.Security.Authorization.Attributes;
 using Go2Climb.API.Security.Domain.Services.Communication;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Go2Climb.API.Controllers
+namespace Go2Climb.API.Agencies.Controllers
 {
     [Produces("application/json")]
     [ApiController]

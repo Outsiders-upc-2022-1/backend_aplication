@@ -8,7 +8,7 @@ using Go2Climb.API.Resources;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Go2Climb.API.Controllers
+namespace Go2Climb.API.Activities.Controllers
 {
     [Produces("application/json")]
     [ApiController]

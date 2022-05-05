@@ -1,4 +1,6 @@
-﻿namespace Go2Climb.API.Domain.Models
+﻿using Go2Climb.API.Agencies.Domain.Models;
+
+namespace Go2Climb.API.Domain.Models
 {
     public class AgencyReview
     {

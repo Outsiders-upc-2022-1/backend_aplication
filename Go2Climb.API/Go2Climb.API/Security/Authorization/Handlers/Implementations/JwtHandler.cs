@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using Go2Climb.API.Agencies.Domain.Models;
 using Go2Climb.API.Domain.Models;
 using Go2Climb.API.Security.Authorization.Handlers.Interfaces;
 using Go2Climb.API.Security.Authorization.Settings;

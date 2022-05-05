@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Go2Climb.API.Agencies.Domain.Models;
 
 namespace Go2Climb.API.Domain.Models
 {
