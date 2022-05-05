@@ -19,7 +19,7 @@ namespace GoClimb.API.XUnit.test.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class AddAgencyReviewFeature : object, Xunit.IClassFixture<AddAgencyReviewFeature.FixtureData>, System.IDisposable
+    public partial class AddHiredServiceFeature : object, Xunit.IClassFixture<AddHiredServiceFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -28,10 +28,10 @@ namespace GoClimb.API.XUnit.test.Features
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
-#line 1 "AddAgencyReview.feature"
+#line 1 "AddHiredService.feature"
 #line hidden
         
-        public AddAgencyReviewFeature(AddAgencyReviewFeature.FixtureData fixtureData, GoClimb_API_XUnit_test_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public AddHiredServiceFeature(AddHiredServiceFeature.FixtureData fixtureData, GoClimb_API_XUnit_test_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,8 +40,8 @@ namespace GoClimb.API.XUnit.test.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "AddAgencyReview", "\tAs a tourist I want to rate the service I hired to show my opinion so that more " +
-                    "users know about it.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "AddHiredService", "    As an agency I want to have control of the status of the service offered to m" +
+                    "y clients to indicate when a service has been satisfactorily completed.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -79,41 +79,35 @@ namespace GoClimb.API.XUnit.test.Features
         public virtual void FeatureBackground()
         {
 #line 4
- #line hidden
+    #line hidden
 #line 5
-  testRunner.Given("the Endpoint https://localhost:5001/api/v1/agencyreviews is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+        testRunner.Given("the Endpoint https://localhost:5001/api/v1/hiredservice is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Id",
+            TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "Name",
-                        "Email",
-                        "PhoneNumber",
-                        "Description",
+                        "Price",
                         "Location",
-                        "Ruc",
-                        "Photo",
-                        "Score"});
-            table1.AddRow(new string[] {
-                        "1",
-                        "Climbling",
-                        "Climbling@go.com",
-                        "987654321",
-                        "funny",
-                        "calle 2",
-                        "12345678",
-                        "none",
-                        "5"});
+                        "CreationDate",
+                        "Description",
+                        "AgencyId"});
+            table4.AddRow(new string[] {
+                        "New Service",
+                        "500",
+                        "Ancash",
+                        "06-11-2021",
+                        "This is a new service for my agency",
+                        "1"});
 #line 6
-  testRunner.And("A Agency already exists", ((string)(null)), table1, "And ");
+        testRunner.And("A Service already exists", ((string)(null)), table4, "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
                         "LastName",
                         "Email",
                         "Password",
                         "PhoneNumber"});
-            table2.AddRow(new string[] {
+            table5.AddRow(new string[] {
                         "1",
                         "Luis",
                         "Perez",
@@ -121,7 +115,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "mypass12345",
                         "999888777"});
 #line 10
-  testRunner.And("A Customer already hire a service", ((string)(null)), table2, "And ");
+        testRunner.And("A Customer hired that service", ((string)(null)), table5, "And ");
 #line hidden
         }
         
@@ -130,18 +124,18 @@ namespace GoClimb.API.XUnit.test.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Add new review to the agency")]
-        [Xunit.TraitAttribute("FeatureTitle", "AddAgencyReview")]
-        [Xunit.TraitAttribute("Description", "Add new review to the agency")]
+        [Xunit.SkippableFactAttribute(DisplayName="Add new hired service to the agency")]
+        [Xunit.TraitAttribute("FeatureTitle", "AddHiredService")]
+        [Xunit.TraitAttribute("Description", "Add new hired service to the agency")]
         [Xunit.TraitAttribute("Category", "service-adding")]
-        public virtual void AddNewReviewToTheAgency()
+        public virtual void AddNewHiredServiceToTheAgency()
         {
             string[] tagsOfScenario = new string[] {
                     "service-adding"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new review to the agency", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new hired service to the agency", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 15
- this.ScenarioInitialize(scenarioInfo);
+    this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -161,31 +155,27 @@ namespace GoClimb.API.XUnit.test.Features
             {
                 this.ScenarioStart();
 #line 4
- this.FeatureBackground();
+    this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
-                            "AgencyId",
-                            "CustomerId",
-                            "Date",
-                            "Comment",
-                            "ProfessionalismScore",
-                            "SecurityScore",
-                            "QualityScore",
-                            "CostScore"});
-                table3.AddRow(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                            "customerId",
+                            "serviceId",
+                            "amount",
+                            "price",
+                            "scheduledDate",
+                            "status"});
+                table6.AddRow(new string[] {
                             "1",
                             "1",
-                            "25-04-2022",
-                            "The experience was great",
-                            "5",
-                            "5",
-                            "5",
-                            "4"});
+                            "1000",
+                            "500",
+                            "05-05-2022",
+                            "pending"});
 #line 16
-  testRunner.When("A AgencyReview Request is Sent", ((string)(null)), table3, "When ");
+        testRunner.When("A HiredService Request is Sent", ((string)(null)), table6, "When ");
 #line hidden
 #line 19
-  testRunner.Then("A Response With status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("A response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -198,12 +188,12 @@ namespace GoClimb.API.XUnit.test.Features
             
             public FixtureData()
             {
-                AddAgencyReviewFeature.FeatureSetup();
+                AddHiredServiceFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                AddAgencyReviewFeature.FeatureTearDown();
+                AddHiredServiceFeature.FeatureTearDown();
             }
         }
     }
