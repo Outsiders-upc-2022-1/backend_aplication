@@ -33,7 +33,7 @@ namespace GoClimb.API.XUnit.test.Steps;
         [Given(@"the Endpoint https://localhost:(.*)/api/v(.*)/services is available")]
         public void GivenTheEndpointHttpsLocalhostApiVServicesIsAvailable(int port, int version)
         {
-            BaseUri = new Uri($"https://localhost:{port}/api/v{version}/posts");
+            BaseUri = new Uri($"https://localhost:{port}/api/v{version}/services");
             Client = _factory.CreateClient(new WebApplicationFactoryClientOptions {BaseAddress = BaseUri});
         }
 
