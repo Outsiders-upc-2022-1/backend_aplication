@@ -337,7 +337,6 @@ D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Cl
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\Go2Climb.API.runtimeconfig.json
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\Go2Climb.API.runtimeconfig.dev.json
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\Go2Climb.API.dll
-D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\ref\Go2Climb.API.dll
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\Go2Climb.API.pdb
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\AutoMapper.dll
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -388,3 +387,4 @@ D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Cl
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\obj\Debug\net5.0\ref\Go2Climb.API.dll
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\obj\Debug\net5.0\Go2Climb.API.pdb
 D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\obj\Debug\net5.0\Go2Climb.API.genruntimeconfig.cache
+D:\UPC\CICLO 6\6. EVOLUCIÓN DE SOFTWARE\TRABAJO\CODIGO\backend_aplication\Go2Climb.API\Go2Climb.API\obj\Debug\net5.0\refint\Go2Climb.API.dll

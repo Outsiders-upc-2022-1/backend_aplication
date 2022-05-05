@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj": {}
+    "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
+    "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
+        "projectUniqueName": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
         "projectName": "Go2Climb.API",
-        "projectPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
-        "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\obj\\",
+        "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
+        "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
+        "outputPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ALEJANDRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,24 +102,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.16, 5.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -123,34 +110,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Kevin\\.dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj": {
+    "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
+        "projectUniqueName": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
         "projectName": "GoClimb.API.XUnit.test",
-        "projectPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
-        "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\obj\\",
+        "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
+        "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
+        "outputPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ALEJANDRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
-                "projectPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Evolucion de software\\Go2Climb\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
+              "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
+                "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
               }
             }
           }
@@ -193,7 +185,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.2-pre.12, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -212,29 +204,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Kevin\\.dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

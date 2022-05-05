@@ -89,6 +89,7 @@ namespace Go2Climb.API.NUnit.Test
                 .Throws(new Exception());
             var mockUnitOfWork = GetDefaultIUnitOfWorkInstance();
             var service = new ServiceReviewService(mockServiceReviewRepository.Object, mockUnitOfWork.Object, mockCustomerRepository.Object, mockServiceRepository.Object);
+            
             //Act
             ServiceReviewResponse response = await service.DeleteAsync(100);
             var message = response.Message;
