@@ -6,7 +6,7 @@
 
         <IsPackable>false</IsPackable>
 
-        <LangVersion>latest</LangVersion>
+        <LangVersion>preview</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -28,6 +28,10 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Go2Climb.API\Go2Climb.API.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <SpecFlowFeatureFiles Remove="Features\AddAgency.feature" />
     </ItemGroup>
 
 </Project>
