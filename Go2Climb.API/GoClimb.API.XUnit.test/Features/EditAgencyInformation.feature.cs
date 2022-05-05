@@ -83,7 +83,7 @@ namespace GoClimb.API.XUnit.test.Features
 #line 7
   testRunner.Given("the Endpoint https://localhost:5001/api/v1/agencies/1 is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-            TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
                         "Email",
@@ -93,7 +93,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "Ruc",
                         "Photo",
                         "Score"});
-            table6.AddRow(new string[] {
+            table12.AddRow(new string[] {
                         "1",
                         "Climbling",
                         "Climbling@go.com",
@@ -104,7 +104,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "none",
                         "5"});
 #line 8
-  testRunner.And("A agency is already stored", ((string)(null)), table6, "And ");
+  testRunner.And("A agency is already stored", ((string)(null)), table12, "And ");
 #line hidden
         }
         
@@ -146,7 +146,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
  this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Name",
                             "Email",
@@ -156,7 +156,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Ruc",
                             "Photo",
                             "Score"});
-                table7.AddRow(new string[] {
+                table13.AddRow(new string[] {
                             "1",
                             "MockUpClimb",
                             "Climbling@go.com",
@@ -167,10 +167,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "none",
                             "5"});
 #line 15
- testRunner.When("A Put Request is sent", ((string)(null)), table7, "When ");
+ testRunner.When("A Put Request is sent", ((string)(null)), table13, "When ");
 #line hidden
 #line 18
- testRunner.Then("A Response with Status 201 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("A Response with Status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -207,7 +207,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 6
  this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Name",
                             "Email",
@@ -217,7 +217,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Ruc",
                             "Photo",
                             "Score"});
-                table8.AddRow(new string[] {
+                table14.AddRow(new string[] {
                             "2",
                             "MockUpClimb",
                             "Climbling@go.com",
@@ -228,10 +228,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "none",
                             "5"});
 #line 21
- testRunner.When("A Put Request is sent", ((string)(null)), table8, "When ");
+ testRunner.When("A Put Request is sent", ((string)(null)), table14, "When ");
 #line hidden
 #line 24
-    testRunner.Then("A Response with status 400 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("A Response with Status 400 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

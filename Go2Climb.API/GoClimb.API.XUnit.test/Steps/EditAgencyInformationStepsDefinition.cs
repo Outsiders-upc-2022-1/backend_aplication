@@ -28,7 +28,7 @@ namespace GoClimb.API.XUnit.test.Steps
         private Task<HttpResponseMessage> Response { get; set; }
         private AgencyResource Agency { get; set; }
         
-        public EditAgencyInformationStepsDefinition(WebApplicationFactory<Startup> factory, HttpClient client, Uri baseUri, Task<HttpResponseMessage> response, AgencyResource agency)
+        public EditAgencyInformationStepsDefinition(WebApplicationFactory<Startup> factory)
         {
             _factory = factory;
         }
@@ -68,16 +68,17 @@ namespace GoClimb.API.XUnit.test.Steps
             var actualStatusCode = Response.Result.StatusCode.ToString();
             Assert.Equal(actualStatusCode, actualStatusCode);
         }
-
-       /* [Then(@"A Agency information is up-to-date")]
-        public async void ThenAAgencyInformationIsUpToDate(Table expectedAgencyResource)
-        {
-            var expectedResource = expectedAgencyResource.CreateSet<AgencyResource>().First();
-            var responseData = await Response.Result.Content.ReadAsStringAsync();
-            var resource = JsonConvert.DeserializeObject<AgencyResource>(responseData);
-            var jsonExpectedResource = expectedAgencyResource.ToJson();
-            var jsonActualResource = resource.ToJson();
-            Assert.Equal(jsonExpectedResource, jsonActualResource);
-        }*/
+        
+        /* [Then(@"A Agency information is up-to-date")]
+         public async void ThenAAgencyInformationIsUpToDate(Table expectedAgencyResource)
+         {
+             var expectedResource = expectedAgencyResource.CreateSet<AgencyResource>().First();
+             var responseData = await Response.Result.Content.ReadAsStringAsync();
+             var resource = JsonConvert.DeserializeObject<AgencyResource>(responseData);
+             var jsonExpectedResource = expectedAgencyResource.ToJson();
+             var jsonActualResource = resource.ToJson();
+             Assert.Equal(jsonExpectedResource, jsonActualResource);
+         }*/
+        
     }
 }

@@ -82,7 +82,7 @@ namespace GoClimb.API.XUnit.test.Features
 #line 5
   testRunner.Given("The Endpoint https://localhost:5001/api/v1/services/1 is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
                         "Email",
@@ -92,7 +92,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "Ruc",
                         "Photo",
                         "Score"});
-            table1.AddRow(new string[] {
+            table7.AddRow(new string[] {
                         "1",
                         "Climbling",
                         "Climbling@go.com",
@@ -103,9 +103,9 @@ namespace GoClimb.API.XUnit.test.Features
                         "none",
                         "5"});
 #line 6
-  testRunner.And("A agency is already stored", ((string)(null)), table1, "And ");
+  testRunner.And("A agency is already stored", ((string)(null)), table7, "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
                         "Price",
@@ -113,7 +113,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "CreationDate",
                         "Description",
                         "AgencyId"});
-            table2.AddRow(new string[] {
+            table8.AddRow(new string[] {
                         "1",
                         "New Service",
                         "420",
@@ -122,7 +122,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "This is a new service for my agency",
                         "1"});
 #line 9
-     testRunner.And("A Service is already stored", ((string)(null)), table2, "And ");
+     testRunner.And("A Service is already stored", ((string)(null)), table8, "And ");
 #line hidden
         }
         
@@ -164,7 +164,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 4
  this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "Id",
                             "Name",
                             "Price",
@@ -172,7 +172,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "CreationDate",
                             "Description",
                             "AgencyId"});
-                table3.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "1",
                             "New Service",
                             "420",
@@ -181,7 +181,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "This is a new service for my agency",
                             "1"});
 #line 15
- testRunner.When("A Service Request is Sent with complete information for a upgrade of price", ((string)(null)), table3, "When ");
+ testRunner.When("A Service Request is Sent with complete information for a upgrade of price", ((string)(null)), table9, "When ");
 #line hidden
 #line 18
    testRunner.Then("A response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

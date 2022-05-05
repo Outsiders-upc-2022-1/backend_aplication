@@ -71,8 +71,8 @@ namespace GoClimb.API.XUnit.test.Steps
             var content = new StringContent(resource.ToJson(), Encoding.UTF8, MediaTypeNames.Application.Json);
             Response = Client.PostAsync(BaseUri, content);
         }
-
-        [Then(@"A response with status (.*) is received")]
+        
+        [Then(@"A Response With Status (.*) is received")]
         public void ThenAResponseWithStatusIsReceived(int expectedStatus)
         {
             var expectedStatusCode = ((HttpStatusCode) expectedStatus).ToString();

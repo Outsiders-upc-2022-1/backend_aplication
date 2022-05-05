@@ -37,8 +37,8 @@ namespace GoClimb.API.XUnit.test.Steps
             BaseUri = new Uri($"https://localhost:{port}/api/v{version}/services");
             Client = _factory.CreateClient(new WebApplicationFactoryClientOptions {BaseAddress = BaseUri});
         }
-
-        [Given(@"A Agency is already stored")]
+        
+        [Given(@"A Agency Is Already Stored")]
         public async void GivenAAgencyIsAlreadyStored(Table existingAgencyResource)
         {
             var agencyUri = new Uri("https://localhost:5001/api/v1/agencies");
@@ -57,8 +57,8 @@ namespace GoClimb.API.XUnit.test.Steps
             var content = new StringContent(resource.ToJson(), Encoding.UTF8, MediaTypeNames.Application.Json);
             Response = Client.PostAsync(BaseUri, content);
         }
-
-        [Then(@"A Response with status (.*) is received")]
+        
+        [Then(@"A Response with status (.*) is Received")]
         public void ThenAResponseWithStatusIsReceived(int expectedStatus)
         {
             var expectedStatusCode = ((HttpStatusCode) expectedStatus).ToString();

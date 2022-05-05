@@ -175,7 +175,7 @@ namespace GoClimb.API.XUnit.test.Features
         testRunner.When("A HiredService Request is Sent", ((string)(null)), table6, "When ");
 #line hidden
 #line 19
-        testRunner.Then("A response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("A Response With Status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

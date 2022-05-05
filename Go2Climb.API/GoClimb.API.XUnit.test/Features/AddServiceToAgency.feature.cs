@@ -82,7 +82,7 @@ namespace GoClimb.API.XUnit.test.Features
 #line 5
     testRunner.Given("the Endpoint https://localhost:5001/api/v1/services is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-            TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
                         "Email",
@@ -92,7 +92,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "Ruc",
                         "Photo",
                         "Score"});
-            table4.AddRow(new string[] {
+            table10.AddRow(new string[] {
                         "1",
                         "Climbling",
                         "Climbling@go.com",
@@ -103,7 +103,7 @@ namespace GoClimb.API.XUnit.test.Features
                         "none",
                         "5"});
 #line 6
-    testRunner.And("A Agency is already stored", ((string)(null)), table4, "And ");
+    testRunner.And("A Agency Is Already Stored", ((string)(null)), table10, "And ");
 #line hidden
         }
         
@@ -145,23 +145,23 @@ namespace GoClimb.API.XUnit.test.Features
 #line 4
   this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                             "Name",
                             "Price",
                             "Location",
                             "CreationDate",
                             "Description"});
-                table5.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "New Service",
                             "420",
                             "Ancash",
                             "06-11-2021",
                             "This is a new service for my agency"});
 #line 12
-    testRunner.When("A Service Request is Sent", ((string)(null)), table5, "When ");
+    testRunner.When("A Service Request is Sent", ((string)(null)), table11, "When ");
 #line hidden
 #line 15
-    testRunner.Then("A Response with status 200 is received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("A Response with status 200 is Received", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

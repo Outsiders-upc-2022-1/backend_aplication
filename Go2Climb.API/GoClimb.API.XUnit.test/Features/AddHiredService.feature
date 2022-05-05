@@ -16,4 +16,4 @@
         When A HiredService Request is Sent
           | customerId | serviceId | amount | price | scheduledDate | status  |
           | 1          | 1         | 1000   | 500   | 05-05-2022    | pending |
-        Then A response with status 200 is received
+        Then A Response With Status 200 is received
