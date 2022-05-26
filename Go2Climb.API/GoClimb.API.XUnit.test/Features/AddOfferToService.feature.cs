@@ -108,6 +108,7 @@ namespace GoClimb.API.XUnit.test.Features
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "Id",
                         "Name",
+                        "Score",
                         "Price",
                         "Location",
                         "CreationDate",
@@ -116,6 +117,7 @@ namespace GoClimb.API.XUnit.test.Features
             table8.AddRow(new string[] {
                         "1",
                         "New Service",
+                        "0",
                         "420",
                         "Ancash",
                         "06-11-2021",
