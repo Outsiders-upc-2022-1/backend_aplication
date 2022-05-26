@@ -8578,11 +8578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
+      "projectUniqueName": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
       "projectName": "Go2Climb.API.Tests",
-      "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
+      "projectPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
       "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API.Tests\\obj\\",
+      "outputPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8602,8 +8602,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
-              "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
+            "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
+              "projectPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
             }
           }
         }

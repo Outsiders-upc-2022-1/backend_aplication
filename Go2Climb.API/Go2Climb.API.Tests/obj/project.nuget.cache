@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Icv0WgFSrEB+UXokVLe6oxeMPEtBH/bi+SEjLCfc5k/JK9hNIfbZ/GAmcCg0QdiZrQEzRVS6mT+Y5X+TqbKdnQ==",
+  "dgSpecHash": "t0jL1qVGDHACFfgY2+1n/1Zfdbaed7xaLQ1EO3jsG7GvFwNzzg2uuY1IOx7MrV3fiq1P7m1L6gT3mlEKI3tiHQ==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
+  "projectFilePath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API.Tests\\Go2Climb.API.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALEJANDRO\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ALEJANDRO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

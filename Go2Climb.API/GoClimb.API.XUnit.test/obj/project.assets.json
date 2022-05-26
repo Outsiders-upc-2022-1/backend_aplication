@@ -8942,11 +8942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
+      "projectUniqueName": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
       "projectName": "GoClimb.API.XUnit.test",
-      "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
+      "projectPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\GoClimb.API.XUnit.test\\GoClimb.API.XUnit.test.csproj",
       "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\GoClimb.API.XUnit.test\\obj\\",
+      "outputPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\GoClimb.API.XUnit.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8966,8 +8966,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
-              "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
+            "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
+              "projectPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj"
             }
           }
         }

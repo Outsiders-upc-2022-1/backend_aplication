@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {}
+    "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {}
   },
   "projects": {
-    "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
+    "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
+        "projectUniqueName": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
         "projectName": "Go2Climb.API",
-        "projectPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
+        "projectPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\Go2Climb.API.csproj",
         "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Climb.API\\Go2Climb.API\\obj\\",
+        "outputPath": "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,8 +10,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Go2Climb.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\UPC\\CICLO 6\\6. EVOLUCIÓN DE SOFTWARE\\TRABAJO\\CODIGO\\backend_aplication\\Go2Clim" +
-    "b.API\\Go2Climb.API", "Go2Climb.API.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Go2Climb.API", "D:\\REPOSITORIO\\EVOLUCION\\BACKEND\\Go2Climb.API\\Go2Climb.API", "Go2Climb.API.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoClimb.API.XUnit.test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
