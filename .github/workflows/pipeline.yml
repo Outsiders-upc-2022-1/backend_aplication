@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./Go2Climb.API/
     - name: Build
-      run: dotnet build --no-restore ./Go2Climb.API/
+      run: dotnet build --no-restore ./Go2Climb.API/Go2Climb.API
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./Go2Climb.API/
+      run: dotnet test --no-build --verbosity normal ./Go2Climb.API/GoClimb.API.XUnit.test
